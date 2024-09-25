@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: orange;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+#startStopBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#resetBtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+#restartBtn {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+}
